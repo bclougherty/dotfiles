@@ -1,0 +1,7 @@
+#!/bin/sh
+
+window_id=$(xprop -root 32x '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)
+name=$(xprop '\t$0' -id "$window_id" _NET_WM_NAME | cut -f 2)
+
+# Strip the first and last chars, which are quotes
+echo "$name" | sed -r 's/^.//' | sed -r 's/.$//'

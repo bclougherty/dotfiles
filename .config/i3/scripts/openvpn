@@ -1,0 +1,14 @@
+
+#!/bin/sh
+
+ip address show tun0 | awk '
+BEGIN {
+	value="Disconnected"
+}
+/inet 10./ {
+	value=$2
+}
+END {
+	print value
+}
+'
