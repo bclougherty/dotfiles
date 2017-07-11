@@ -246,7 +246,7 @@ exec --no-startup-id xset dpms 300
 
 exec --no-startup-id i3-msg '$workspace3; exec /usr/bin/urxvt'
 
-exec_always --no-startup-id feh --bg-scale /home/bclougherty/Pictures/Wallpapers/desire1.png
+exec_always --no-startup-id feh --bg-scale /home/bclougherty/Pictures/Wallpapers/wallhaven-512644.png
 
 #for_window [class="^.*"] border pixel 0
 gaps inner 15

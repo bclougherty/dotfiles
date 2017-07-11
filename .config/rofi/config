@@ -11,7 +11,7 @@ rofi.lines:                          5
 ! rofi.columns:                        1
 
 ! "Font to use" Set from: Default
-rofi.font:                           System San Francisco Display 36
+rofi.font:                           System San Francisco Display 16
 
 rofi.color-enabled: true
 
@@ -28,7 +28,7 @@ rofi.color-urgent: 	argb:005a72c4,	#fe9999, 	argb:005a72c4, 	#fe9999,				#ffffff
 ! "Location on screen" Set from: Default
 ! rofi.location:                       0
 ! "Padding" Set from: Default
-rofi.padding:                        800
+rofi.padding:                        400
 ! "Y-offset relative to location" Set from: Default
 ! rofi.yoffset:                        0
 ! "X-offset relative to location" Set from: Default

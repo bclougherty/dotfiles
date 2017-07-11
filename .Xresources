@@ -1,6 +1,6 @@
 Xcursor.size: 16
 
-Xft.dpi: 120
+Xft.dpi: 80
 Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
 Xft.hintstyle:  hintfull
@@ -8,7 +8,7 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
-URxvt*font:            xft:DroidSansMonoForPowerline Nerd Font:size=11
+URxvt*font:            xft:DroidSansMonoForPowerline Nerd Font:size=12
 URxvt*termName:        rxvt
 URxvt*background:      rgba:0000/0000/0000/cccc
 URxvt*foreground:      #cccccc
