@@ -228,7 +228,8 @@ for_window [title="Sol"] floating enable
 for_window [title="Google Hangouts - bclougherty@gmail.com"] floating disable
 
 
-bindsym $mod+Shift+y exec "/opt/HipChat4/bin/HipChat4"; exec "evolution -c mail"; focus left; split vertical; exec "/opt/Rocket.Chat+/rocketchat"; focus right; split vertical; exec "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=knipolnnllmklapflnccelgolnpehhpl"
+bindsym $mod+Shift+y exec "/opt/HipChat4/bin/HipChat4"; exec "/opt/Rocket.Chat+/rocketchat"; exec "evolution -c mail"; exec "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=knipolnnllmklapflnccelgolnpehhpl"
+bindsym $mod+Shift+g layout splitv, focus right, move left, focus right, layout splitv, focus right, move left
 
 # Gaps rendering fix
 #for_window [class="^.*"] border pixel 2
