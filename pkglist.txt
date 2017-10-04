@@ -1,306 +1,313 @@
-accerciser
-adwaita-icon-theme
-aisleriot
-alsa-utils
-anjuta
-arandr
-archiso
-arduino
-arduino-avr-core
-arduino-docs
-atom
-atomix
-autoconf
-automake
-baobab
-bash
-binutils
-bison
-blam
-brasero
-bzip2
-cairo
-capistrano
-cheese
-composer
-compton
-conky-lua-nv
-coreutils
-cronie
-cryptsetup
-cups
-cups-pdf
-dbeaver
-dconf-editor
-devhelp
-device-mapper
-dhcpcd
-dia
-diffutils
-discord
-dmenu
-dnsmasq
-docker
-docker-compose
-drobo-utils
-e2fsprogs
-empathy
-eog
-epiphany
-evince
-evolution
-evolution-ews
-expac
-fakeroot
-feh
-file
-file-roller
-filesystem
-filezilla
-findutils
-five-or-more
-flex
-fontconfig
-four-in-a-row
-freetype2
-gawk
-gcs
-gdm
-gedit
-gedit-code-assistance
-gettext
-ghex
-gimp
-giter8
-gitg
-gitkraken
-glibc
-glogg
-gnome-2048
-gnome-backgrounds
-gnome-builder
-gnome-calculator
-gnome-calendar
-gnome-characters
-gnome-chess
-gnome-clocks
-gnome-code-assistance
-gnome-color-manager
-gnome-contacts
-gnome-control-center
-gnome-desktop
-gnome-devel-docs
-gnome-dictionary
-gnome-disk-utility
-gnome-documents
-gnome-font-viewer
-gnome-getting-started-docs
-gnome-keyring
-gnome-klotski
-gnome-logs
-gnome-mahjongg
-gnome-maps
-gnome-mines
-gnome-mplayer
-gnome-music
-gnome-nettool
-gnome-nibbles
-gnome-photos
-gnome-robots
-gnome-screenshot
-gnome-session
-gnome-settings-daemon
-gnome-shell
-gnome-shell-extension-dynamic-top-bar
-gnome-shell-extension-openweather-git
-gnome-shell-extensions
-gnome-sound-recorder
-gnome-sudoku
-gnome-system-log
-gnome-system-monitor
-gnome-taquin
-gnome-terminal
-gnome-tetravex
-gnome-themes-standard
-gnome-todo
-gnome-tweak-tool
-gnome-user-docs
-gnome-user-share
-gnome-weather
-go
-go-tools
-gocode-git
-google-chrome
-gpaste
-gpmdp
-gprename
-gptfdisk
-grep
-grilo-plugins
-groff
-gst-libav
-guake
-gucharmap
-gvfs
-gvfs-afc
-gvfs-goa
-gvfs-google
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-gzip
-handbrake
-hipchat
-hitori
-i3-gaps
-i3blocks
-i3lock
-i3status
-iagno
-inetutils
-io
-iotop
-iproute2
-iputils
-jemalloc
-jfsutils
-jshon
-kalu
-keychain
-less
-lib32-alsa-plugins
-lib32-curl
-lib32-libcurl-gnutls
-libcurl-compat
-libcurl-openssl-1.0
-libfdk-aac
-libreoffice-fresh
-libtool
-licenses
-lightsoff
-linux
-lm_sensors
-lmms
-logrotate
-lshw
-lsof
-lvm2
-m4
-make
-makemkv
-man-db
-man-pages
-mariadb-clients
-mdadm
-meld
-memtest86-efi
-mousetweaks
-mutter
-nano
-nautilus
-nautilus-dropbox
-nautilus-sendto
-ncdu
-nerd-fonts-complete
-netctl
-nethogs
-network-manager-applet
-networkmanager-openvpn
-nmap
-ntfs-3g
-nvidia
-okular
-openssh
-openvpn
-orca
-otf-san-francisco
-pacaur
-pacgraph
-packer
-pacman
-patch
-pavucontrol
-pciutils
-pcmciautils
-perl
-php
-pkg-config
-playerctl
-playonlinux
-polari
-ppp
-procps-ng
-psmisc
-pyrenamer
-python2-pyopenssl
-python2-simplejson
-qtads
-qtqr
-quadrapassel
-refind-efi
-reiserfsprogs
-remmina-plugin-rdesktop
-rocketchat-client
-rofi
-ruby
-rxvt-unicode
-rygel
-s-nail
-sabnzbd
-sbt
-scala
-screen
-scrot
-seahorse
-sed
-shadow
-singularity
-sonarr
-splix
-steam
-sudo
-super-flat-remix-icon-theme
-sushi
-swell-foop
-sysfsutils
-systemd-sysvcompat
-tali
-tar
-texinfo
-totem
-tracker
-ttf-atlantic-cruise
-ttf-enochian
-ttf-font-awesome
-ttf-inconsolata-gwf
-ttf-liberation
-ttf-ms-fonts
-ttf-neverworld
-ttf-noto-fonts-emoji-ib
-ttf-symbola
-ttf-tahoma
-unetbootin
-urxvt-clipboard
-urxvt-resize-font-git
-usbutils
-util-linux
-vagrant
-vi
-vinagre
-vino
-virtualbox
-virtualbox-host-modules-arch
-vivaldi-ffmpeg-codecs
-vlc
-vncdesk-git
-which
-wine
-x264
-xdg-user-dirs-gtk
-xfsprogs
-xorg-xprop
-xorg-xrandr
-yajl
-yelp
-zbar
+accerciser 3.22.0-2
+adwaita-icon-theme 3.24.0-1
+aisleriot 3.22.2-2
+alsa-utils 1.1.4-1
+anjuta 3.22.0+1+g2bd433c-1
+arandr 0.1.9-2
+archiso 32-1
+arduino 1:1.8.4-1
+arduino-avr-core 1.6.20-1
+arduino-docs 1.6.6-4
+atom 1.20.1-1
+atomix 3.22.0-1
+autoconf 2.69-4
+automake 1.15.1-1
+baobab 3.24.0+1+g202d168-1
+bash 4.4.012-2
+binutils 2.29.0-1
+bison 3.0.4-3
+blam 1.8.12-4
+brasero 3.12.2-1
+bzip2 1.0.6-6
+cairo 1.15.8-2
+capistrano 3.8.1-1
+cheese 3.24.0-1
+composer 1.5.1-1
+compton 0.1_beta2.5-8
+conky-lua-nv 1.10.6-2
+coreutils 8.28-1
+cronie 1.5.1-1
+cryptsetup 1.7.5-1
+cups 2.2.4-2
+cups-pdf 3.0.1-1
+dbeaver 4.1.3-1
+dconf-editor 3.23.4+48+g9acdf0a-1
+devhelp 3.24.0+7+gefb59e2-1
+device-mapper 2.02.174-1
+dhcpcd 6.11.5-1
+dia 0.97.3-4
+diffutils 3.6-1
+discord 0.0.2-1
+dmenu 4.7-1
+dnsmasq 2.77-4
+docker 1:17.07.0-1
+docker-compose 1.16.1-1
+drobo-utils 0.6.2.2-4
+e2fsprogs 1.43.6-1
+empathy 3.12.14-1
+eog 3.24.1-1
+epiphany 3.24.3-1
+evince 3.24.1-1
+evolution 3.24.5-1
+evolution-ews 3.24.5-1
+expac 8-1
+fakeroot 1.22-1
+feh 2.20-1
+file 5.32-1
+file-roller 3.24.1-1
+filesystem 2017.03-2
+filezilla 3.27.1-1
+findutils 4.6.0-2
+five-or-more 3.22.2-1
+flex 2.6.4-1
+fontconfig 2.12.6-1
+four-in-a-row 3.22.1-1
+freecad 0.16.6712-2
+freetype2 2.8.1-1
+gawk 4.1.4-2
+gcs 4.9.0-1
+gdm 3.24.2-1
+gedit 3.22.1+1+gd21912e3e-1
+gedit-code-assistance 3.16.0+4+gd19b879-1
+gettext 0.19.8.1-2
+ghex 3.18.3-1
+gimp 2.8.22-1
+gitg 3.26-1
+gitkraken 3.0.1-2
+glibc 2.26-4
+glogg 1.1.3-1
+gnome-2048 3.22.0+7+ga460b20-1
+gnome-backgrounds 3.24.0+2+g755b6f9-1
+gnome-builder 3.24.2-3
+gnome-calculator 3.24.0+2+g0ca2919b-1
+gnome-calendar 3.24.3-1
+gnome-characters 3.22.0+49+g0d6a0bd-1
+gnome-chess 3.24.1-1
+gnome-clocks 3.24.0+4+gd1003cd-1
+gnome-code-assistance 3.16.1-1
+gnome-color-manager 3.24.0+4+ge78025a-2
+gnome-contacts 3.22.1+4+gb235b6d-1
+gnome-control-center 3.24.3-1
+gnome-desktop 1:3.24.2-1
+gnome-devel-docs 3.22.1-1
+gnome-dictionary 3.24.0+5+ga7aa054-1
+gnome-disk-utility 3.24.1-1
+gnome-documents 3.24.3-1
+gnome-font-viewer 3.24.0-1
+gnome-getting-started-docs 3.24.1-1
+gnome-keyring 1:3.20.0+57+g9db67ef6-1
+gnome-klotski 3.22.1-1
+gnome-logs 3.24.2-1
+gnome-mahjongg 3.22.0+1+g55799c1-1
+gnome-maps 3.24.3-1
+gnome-mines 3.24.0+1+ga8c3697-1
+gnome-mplayer 1.0.9-4
+gnome-music 3.24.2-1
+gnome-nettool 3.8.1-3
+gnome-nibbles 3.24.0+1+g623d38e-1
+gnome-photos 3.24.3-1
+gnome-robots 3.22.1+6+gf5df154-1
+gnome-screenshot 3.22.0+42+g8472361-1
+gnome-session 3.24.1-1
+gnome-settings-daemon 3.24.3-2
+gnome-shell 3.24.3-1
+gnome-shell-extension-dynamic-top-bar 3.3.1-1
+gnome-shell-extension-openweather-git r900.797f918-1
+gnome-shell-extensions 3.24.3-1
+gnome-sound-recorder 3.24.0.1+8+g0b8e221-1
+gnome-sudoku 3.24.0+3+g08a1072-1
+gnome-system-log 3.9.90+156+g6e29f03-1
+gnome-system-monitor 3.24.0+4+g9140c85a-1
+gnome-taquin 3.22.0-1
+gnome-terminal 3.24.2-1
+gnome-tetravex 3.22.0+4+g817dbf6-1
+gnome-themes-standard 3.22.3-1
+gnome-todo 3.24.2-1
+gnome-tweak-tool 3.24.1-1
+gnome-user-docs 3.24.2-1
+gnome-user-share 3.18.3+2+g7b451ae-1
+gnome-weather 3.24.0-1
+go 2:1.9-1
+go-tools 2:1.9+2247+5d2fd3cc-1
+gocode-git 637.10c1e59-1
+google-chrome 61.0.3163.100-1
+gpaste 3.24.2-1
+gpmdp 4.4.1-1
+gprename 20160905-1
+gptfdisk 1.0.3-1
+grep 3.1-1
+grilo-plugins 0.3.4+13+gf460a00-1
+groff 1.22.3-7
+gst-libav 1.12.3-1
+guake 0.8.10-1
+gucharmap 10.0.0-1
+gvfs 1.32.1+8+ga33a8437-1
+gvfs-afc 1.32.1+8+ga33a8437-1
+gvfs-goa 1.32.1+8+ga33a8437-1
+gvfs-google 1.32.1+8+ga33a8437-1
+gvfs-gphoto2 1.32.1+8+ga33a8437-1
+gvfs-mtp 1.32.1+8+ga33a8437-1
+gvfs-nfs 1.32.1+8+ga33a8437-1
+gvfs-smb 1.32.1+8+ga33a8437-1
+gzip 1.8-2
+handbrake 1.0.7-2
+hipchat 4.30.0.1663-2
+hitori 3.22.2-1
+i3-gaps 4.14.1-1
+i3blocks 1.4-6
+i3lock 2.9.1-2
+i3status 2.11-3
+iagno 3.22.0-1
+inetutils 1.9.4-5
+io 2017.06.09-1
+iotop 0.6-5
+iproute2 4.13.0-1
+iputils 20161105.1f2bb12-2
+jemalloc 1:5.0.1-3
+jfsutils 1.1.15-4
+jshon 20131105-1
+kalu 4.1.0-1
+keychain 2.8.3-1
+less 487-1
+lib32-alsa-plugins 1.1.4-1
+lib32-curl 7.54.1-2
+lib32-libcurl-gnutls 7.54.1-1
+libc++ 5.0.0-1
+libcurl-compat 7.54.1-1
+libcurl-openssl-1.0 7.54.1-1
+libfdk-aac 0.1.5-1
+libreoffice-fresh 5.4.1-2
+libtool 2.4.6+40+g6ca5e224-1
+licenses 20140629-2
+lightsoff 3.24.0+2+gdf71308-1
+linux 4.12.13-1
+lm_sensors 3.4.0-2
+lmms 1.1.3-4
+logrotate 3.12.3-1
+lshw B.02.18-2
+lsof 4.89-1
+lvm2 2.02.174-1
+m3d-print 1.5.0.70-1
+m4 1.4.18-1
+maim 5.4.66-1
+make 4.2.1-2
+makemkv 1.10.7-1
+man-db 2.7.6.1-2
+man-pages 4.13-1
+mariadb-clients 10.1.26-1
+mdadm 4.0-1
+meld 3.16.4-1
+memtest86-efi 7.4-3
+mjpg-streamer r63-5
+mousetweaks 3.12.0-2
+mutter 3.24.4-1
+nano 2.8.7-1
+nautilus 3.24.2-1
+nautilus-dropbox 2015.10.28-1
+nautilus-sendto 3.8.6-1
+ncdu 1.12-1
+nerd-fonts-complete 1.1.0-3
+netctl 1.13-2
+nethogs 0.8.5-2
+network-manager-applet 1.8.4-1
+networkmanager-openvpn 1.8.0-1
+nmap 7.60-1
+ntfs-3g 2017.3.23-1
+nvidia 384.69-2
+octoprint 1.3.4-2
+okular 17.08.1-1
+openssh 7.5p1-2
+openvpn 2.4.3-3
+orage 4.12.1-3
+orca 3.24.0+15+gc2c209c34-1
+pacaur 4.7.10-1
+pacgraph 20110629-3
+packer 20160325-1
+pacman 5.0.2-2
+patch 2.7.5-1
+pavucontrol 3.0-4
+pciutils 3.5.4-1
+pcmciautils 018-7
+perl 5.26.0-4
+php 7.1.9-1
+pkg-config 0.29.2-1
+playerctl 0.5.0-4
+playonlinux 4.2.10-1
+polari 3.24.2-1
+ppp 2.4.7-2
+procps-ng 3.3.12-1
+psmisc 23.1-1
+pyrenamer 0.6.0-10
+python-pip 9.0.1-2
+python2-pip 9.0.1-2
+python2-pyopenssl 17.3.0-1
+python2-simplejson 3.11.1-1
+qtads 2.1.7-1
+qtqr 1.4-1
+quadrapassel 3.22.0-1
+refind-efi 0.10.8-1
+reiserfsprogs 3.6.25-1
+remmina-plugin-rdesktop 1.2.3.0-1
+rocketchat-client 2.9.0-1
+rofi 1.3.1-2
+ruby 2.4.2-1
+rxvt-unicode 9.22-5
+rygel 0.34.0-1
+s-nail 14.9.4-1
+sabnzbd 2.3.0-1
+sbt 1:1.0.1-1
+scala 2.12.3-1
+scala-ide 4.6.1-1
+screen 4.6.1-1
+scrot 0.8.17-2
+seahorse 3.20.0+105+gb31e32fe-1
+sed 4.4-1
+shadow 4.5-2
+singularity 0.30c-8
+sonarr 2.0.0.4949-2
+splix 2.0.0-13
+steam 1.0.0.54-1
+sudo 1.8.21.p2-1
+super-flat-remix-icon-theme 20161024-1
+sushi 3.24.0-1
+swell-foop 3.22.2-1
+sysfsutils 2.1.0-9
+systemd-sysvcompat 234.11-9
+tali 3.22.0-1
+tar 1.29-2
+texinfo 6.4-1
+totem 3.24.0-1
+tracker 1.12.3-1
+ttf-enochian 1.0-1
+ttf-font-awesome 4.7.0-3
+ttf-inconsolata-gwf 1.016-1
+ttf-liberation 2.00.1-7
+ttf-ms-fonts 2.0-10
+ttf-neverworld 1-2
+ttf-noto-fonts-emoji-ib 20170310-1
+ttf-symbola 9.17-1
+ttf-tahoma 1:1.7.27-1
+unetbootin 655-1
+urxvt-clipboard 2-2
+urxvt-resize-font-git 14.97c91ec-1
+usbutils 008-1
+util-linux 2.30.1-2
+vagrant 2.0.0-1
+vi 1:070224-2
+vinagre 3.22.0-2
+vino 3.22.0+3+g67773d0-1
+virtualbox 5.1.28-1
+virtualbox-host-modules-arch 5.1.28-1
+vivaldi-ffmpeg-codecs 61.0.3163.91-1
+vlc 2.2.6-3
+vncdesk-git 1.5.0-1
+which 2.21-2
+wine 2.17-1
+x264 2:148.20170521-1
+xdg-user-dirs-gtk 0.10+9+g5b7efc6-1
+xfsprogs 4.12.0-1
+xorg-xprop 1.2.2-1
+xorg-xrandr 1.5.0-1
+yajl 2.1.0-1
+yelp 3.22.0+1+gfabd8eb-1
+zbar 0.10-11
