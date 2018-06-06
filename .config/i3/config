@@ -36,6 +36,7 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+shift+Return exec "nautilus --new-window"
+bindsym $mod+ctrl+Return exec "/usr/bin/google-chrome-stable"
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -103,12 +104,12 @@ bindsym $mod+x [urgent=latest] focus
 #bindsym $mod+d focus child
 
 set $workspace1 "1: Home "
-set $workspace2 "2: Coding "
+set $workspace2 "2: Coding "
 set $workspace3 "3: Terminals "
 set $workspace4 "4: Gaming "
 set $workspace5 "5: Workspace "
-set $workspace6 "6: Workspace "
-set $workspace7 "7: Workspace "
+set $workspace6 "6: Git "
+set $workspace7 "7: Databases "
 set $workspace8 "8: Workspace "
 set $workspace9 "9: Comms "
 set $workspace10 "10: Music "
@@ -224,12 +225,16 @@ for_window [class="Steam"] border none
 for_window [class="Steam.exe"] floating enable
 for_window [class="Steam.exe"] border none
 
+for_window [class="Minecraft 1.7.10"] floating enable
+
+for_window [class="RimWorldLinux.x86_64"] floating enable
+
 for_window [title="HipChat Video"] floating enable, sticky enable
 for_window [title="Sol"] floating enable
 for_window [title="Google Hangouts - bclougherty@gmail.com"] floating disable
 
 
-bindsym $mod+Shift+y exec "/opt/HipChat4/bin/HipChat4"; exec "evolution -c mail"; focus left; split vertical; exec "/opt/Rocket.Chat+/rocketchat"; focus right; split vertical; exec "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=knipolnnllmklapflnccelgolnpehhpl"
+bindsym $mod+Shift+y exec "/opt/HipChat4/bin/HipChat4"; exec "evolution -c mail"; exec "/opt/Rocket.Chat+/rocketchat"; exec "/usr/bin/skypeforlinux"
 
 # Gaps rendering fix
 #for_window [class="^.*"] border pixel 2
@@ -246,8 +251,6 @@ exec --no-startup-id orage
 
 # Turn off the screen after 5 minutes of inactivity
 exec --no-startup-id xset dpms 300
-
-exec --no-startup-id i3-msg '$workspace3; exec /usr/bin/urxvt'
 
 exec_always --no-startup-id feh --bg-scale /home/bclougherty/Pictures/Wallpapers/desire1.png
 

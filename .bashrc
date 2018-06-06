@@ -14,6 +14,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 source ~/.git_autocomplete.sh
 source ~/.git-prompt.sh
+source ~/.ssh/autocomplete_hosts
 
 PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\] : \[\033[01;36m\]\w\[\033[00m\]\[\e[033;01m\]\[\e[00m\] \[\e[0;93m\]\$(__git_ps1)\[\e[00m\] $ "
 
