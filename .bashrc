@@ -18,7 +18,7 @@ source ~/.ssh/autocomplete_hosts
 
 PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\] : \[\033[01;36m\]\w\[\033[00m\]\[\e[033;01m\]\[\e[00m\] \[\e[0;93m\]\$(__git_ps1)\[\e[00m\] $ "
 
-PATH="${PATH}:/home/bclougherty/bin:/home/bclougherty/code/go/bin:/home/bclougherty/.config/composer/vendor/bin"
+PATH="/home/bclougherty/bin:/home/bclougherty/code/go/bin:/home/bclougherty/.config/composer/vendor/bin:${PATH}"
 
 export GOPATH=~/code/go
 export SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS=0

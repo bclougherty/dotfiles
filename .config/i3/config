@@ -35,7 +35,7 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+shift+Return exec "nautilus --new-window"
+bindsym $mod+shift+Return exec "nautilus"
 bindsym $mod+ctrl+Return exec "/usr/bin/google-chrome-stable"
 
 # kill focused window
@@ -53,24 +53,12 @@ bindsym $mod+space exec rofi -show drun
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
-
-# alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
-
-# alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -140,18 +128,23 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 
 assign [class="Google Play Music Desktop Player"] $workspace10
 assign [class="Steam"] $workspace4
-assign [class="HipChat"] $workspace9
+assign [class="discord"] $workspace9
 assign [class="Rocket.Chat+"] $workspace9
 assign [class="Evolution"] $workspace9
+assign [class="discord"] $workspace9
+assign [class="Skype"] $workspace9
 
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
+
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
+
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 bindsym $mod+Shift+e exec /bin/bash /home/bclougherty/.config/i3/scripts/exitmenu.sh
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -160,16 +153,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
-
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 10 px or 5 ppt
+        bindsym Down resize grow height 10 px or 5 ppt
+        bindsym Up resize shrink height 10 px or 5 ppt
+        bindsym Right resize grow width 10 px or 5 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"
@@ -219,6 +206,9 @@ bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
+for_window [class="xsane"] floating enable
+for_window [class="Xsane"] floating enable
+
 for_window [class="Steam"] floating enable
 for_window [class="Steam"] border none
 
@@ -234,7 +224,7 @@ for_window [title="Sol"] floating enable
 for_window [title="Google Hangouts - bclougherty@gmail.com"] floating disable
 
 
-bindsym $mod+Shift+y exec "/opt/HipChat4/bin/HipChat4"; exec "evolution -c mail"; exec "/opt/Rocket.Chat+/rocketchat"; exec "/usr/bin/skypeforlinux"
+bindsym $mod+Shift+y exec "evolution -c mail"; exec "/opt/Rocket.Chat+/rocketchat-desktop"; exec "/home/bclougherty/bin/skypeforlinux.sh"; exec "/usr/bin/discord"
 
 # Gaps rendering fix
 #for_window [class="^.*"] border pixel 2
@@ -252,7 +242,7 @@ exec --no-startup-id orage
 # Turn off the screen after 5 minutes of inactivity
 exec --no-startup-id xset dpms 300
 
-exec_always --no-startup-id feh --bg-scale /home/bclougherty/Pictures/Wallpapers/desire1.png
+exec_always --no-startup-id feh --bg-scale /home/bclougherty/Pictures/Wallpapers/discipline.jpg
 
 #for_window [class="^.*"] border pixel 0
 gaps inner 15
