@@ -254,4 +254,4 @@ gaps outer 15
 bindsym $mod+Shift+~ exec i3lock && systemctl suspend
 
 # enable tap-to-click
-exec --no-startup-id xinput set-prop 12 286 1
+exec_always --no-startup-id xinput set-prop 12 287 1
