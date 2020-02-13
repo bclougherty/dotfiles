@@ -206,25 +206,18 @@ bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
+# Screenshot
+bindsym Print exec --no-startup-id flameshot gui
+
 for_window [class="xsane"] floating enable
 for_window [class="Xsane"] floating enable
+
+for_window [class="Chromium-browser"] floating enable
 
 for_window [class="Steam"] floating enable
 for_window [class="Steam"] border none
 
-for_window [class="Steam.exe"] floating enable
-for_window [class="Steam.exe"] border none
-
-for_window [class="Minecraft 1.7.10"] floating enable
-
-for_window [class="RimWorldLinux.x86_64"] floating enable
-
-for_window [title="HipChat Video"] floating enable, sticky enable
-for_window [title="Sol"] floating enable
-for_window [title="Google Hangouts - bclougherty@gmail.com"] floating disable
-
-
-bindsym $mod+Shift+y exec "evolution -c mail"; exec "/opt/Rocket.Chat+/rocketchat-desktop"; exec "/home/bclougherty/bin/skypeforlinux.sh"; exec "/usr/bin/discord"
+bindsym $mod+Shift+y exec "evolution -c mail"; exec "/home/bclougherty/bin/skypeforlinux.sh"; exec "/usr/bin/discord"
 
 # Gaps rendering fix
 #for_window [class="^.*"] border pixel 2
